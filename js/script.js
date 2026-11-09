@@ -1,11 +1,12 @@
 const botaoCriar = document.getElementById("botaoCriar");
-
 const retorno = document.getElementById("retorno");
 
 botaoCriar.addEventListener("click", () => {
-    retorno.textContent = "Hoje é um ótimo dia para aprender JS";
-});
-
-botatoApagar.addEventListener("click", () => {
-    retorno.textContent = "";
+    retorno.style.backgroundColor = "#fde68a";
+    retorno.style.color = "#b45309";
+    retorno.style.fontSize = "28px";
+    retorno.style.textAlign = "center";
+    retorno.style.padding = "10px";
+    retorno.style.borderRadius = "8px";
+    retorno.textContent = "Olá, meu nome é Lucas Blume!";
 });
