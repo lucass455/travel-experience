@@ -1,13 +1,33 @@
-.caixas_pai{
+body{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 50px;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f3f4f6;
+    font-family: Arial, sans-serif;
 }
 
-.caixas_filha{
-    background-color: rgb(25, 155, 155);
-    width: 350px;
-    height: 225px;
+.cartao{
+    width: 320px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+}
+
+#titulo{
+    font-size: 32px;
+    color: #2563eb;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #2563eb;
+    font-size: 16px;
+    cursor: pointer;
 }
